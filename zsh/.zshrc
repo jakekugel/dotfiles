@@ -27,6 +27,7 @@ PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b${vcs_info_msg_0_} %# '
 
 ###### Autocompletion
 zstyle ':completion:*' completer _complete _correct _approximate
+alias git='nocorrect git'
 
 ###### Platform-specific configuration
 ARCH=$(uname)
