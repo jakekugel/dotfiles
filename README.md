@@ -10,6 +10,7 @@ git config --global user.name "Jake Kugel"
 git config --global user.email jake_kugel@yahoo.com
 git config --global pull.rebase true
 git config --global core.autocrlf input
+git config --global init.defaultBranch main
 ```
 
 ## SSH Setup
